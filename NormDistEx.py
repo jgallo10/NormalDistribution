@@ -1,6 +1,7 @@
 from random import random
 import numpy as np
 
+#function for Normal Disrobution
 def normalDist(m, sd, num):
     num = np.random.normal(m, sd, num)
     return num
