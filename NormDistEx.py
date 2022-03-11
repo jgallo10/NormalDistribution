@@ -12,3 +12,5 @@ standDev = 0.1
 num = 10
 
 print(normalDist(me, standDev, num))
+
+#just seeing something
