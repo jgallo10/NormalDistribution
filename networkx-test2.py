@@ -13,6 +13,6 @@ g3 = nx.karate_club_graph()
 
 print(g3.edges())
 
-nx.draw(g3)
+nx.draw(g1)
 
 show()
