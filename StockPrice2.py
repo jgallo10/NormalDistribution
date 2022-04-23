@@ -1,3 +1,4 @@
+#Done by Jason and Khizar
 import dash
 import pandas_datareader.data as dat
 import datetime
@@ -11,7 +12,7 @@ app.layout = html.Div(children=[
 
 
     html.Div(children='''
-        Finanacial Chart
+        Please enter a valid stock symbol.
     '''),
 
     dcc.Input(id='input', value ='', type='text'),
